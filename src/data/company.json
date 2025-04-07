@@ -1,0 +1,65 @@
+{
+    "name": "Group Toumbe Manning",
+    "slogan": "Exploiter les richesses naturelles de manière responsable et durable",
+    "description": "Acteur dynamique du secteur minier en Guinée, nous contribuons à l'exploitation responsable des ressources naturelles tout en soutenant le développement économique local.",
+    "foundedYear": 2018,
+    "logo": "/images/logo.svg",
+    "registration": {
+      "rccm": "RCCM/GC-KAL/035.768A/2018",
+      "nif": "NIF54321678"
+    },
+    "mission": "Exploiter les richesses naturelles de manière responsable et durable, au service du progrès économique et social de la Guinée.",
+    "vision": "Devenir un leader régional du secteur minier, reconnu pour son excellence opérationnelle, son engagement environnemental et sa contribution positive aux communautés locales.",
+    "values": [
+      {
+        "title": "Transparence",
+        "description": "Nous nous engageons à maintenir des pratiques commerciales transparentes et éthiques dans toutes nos opérations.",
+        "icon": "Transparency"
+      },
+      {
+        "title": "Excellence opérationnelle",
+        "description": "Nous visons l'excellence dans tous nos processus opérationnels, en utilisant les meilleures technologies et pratiques du secteur.",
+        "icon": "Excellence"
+      },
+      {
+        "title": "Responsabilité environnementale",
+        "description": "Nous nous engageons à minimiser notre impact environnemental et à restaurer les zones exploitées.",
+        "icon": "Environment"
+      },
+      {
+        "title": "Partenariat local",
+        "description": "Nous croyons au développement communautaire et à la création de valeur partagée avec les populations locales.",
+        "icon": "Partnership"
+      }
+    ],
+    "history": [
+      {
+        "year": 2018,
+        "event": "Fondation de Group Toumbe Manning SARL"
+      },
+      {
+        "year": 2019,
+        "event": "Obtention des premiers permis d'exploration dans la région de Boké"
+      },
+      {
+        "year": 2020,
+        "event": "Découverte des premiers gisements de bauxite commercialement viables"
+      },
+      {
+        "year": 2021,
+        "event": "Début des opérations d'extraction de bauxite"
+      },
+      {
+        "year": 2022,
+        "event": "Expansion vers l'exploration aurifère dans la région de Siguiri"
+      },
+      {
+        "year": 2023,
+        "event": "Développement d'un nouveau site d'exploitation à Kankan"
+      },
+      {
+        "year": 2024,
+        "event": "Lancement du projet Siguiri Gold"
+      }
+    ]
+  }

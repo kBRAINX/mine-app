@@ -1,0 +1,64 @@
+{
+    "management": [
+      {
+        "id": 1,
+        "name": "Moussa Toumbe",
+        "position": "Directeur Général",
+        "image": "/images/team/moussa-toumbe.jpg",
+        "bio": "Fort de 15 ans d'expérience dans le secteur minier, Moussa Toumbe a fondé Group Toumbe Manning avec la vision de créer une entreprise minière guinéenne de référence.",
+        "contact": {
+          "email": "m.toumbe@gtm-guinee.com",
+          "linkedin": "linkedin.com/in/moussa-toumbe"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Fatoumata Camara",
+        "position": "Directrice des Opérations",
+        "image": "/images/team/fatoumata-camara.jpg",
+        "bio": "Ingénieure des mines de formation, Fatoumata supervise l'ensemble des opérations d'extraction et de logistique du groupe.",
+        "contact": {
+          "email": "f.camara@gtm-guinee.com",
+          "linkedin": "linkedin.com/in/fatoumata-camara"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Ibrahim Soumah",
+        "position": "Directeur Financier",
+        "image": "/images/team/ibrahim-soumah.jpg",
+        "bio": "Expert en finance avec une spécialisation dans le secteur des ressources naturelles, Ibrahim gère la stratégie financière du groupe.",
+        "contact": {
+          "email": "i.soumah@gtm-guinee.com",
+          "linkedin": "linkedin.com/in/ibrahim-soumah"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Aminata Diallo",
+        "position": "Directrice RSE",
+        "image": "/images/team/aminata-diallo.jpg",
+        "bio": "Spécialiste des relations communautaires et du développement durable, Aminata coordonne les programmes d'impact social et environnemental.",
+        "contact": {
+          "email": "a.diallo@gtm-guinee.com",
+          "linkedin": "linkedin.com/in/aminata-diallo"
+        }
+      }
+    ],
+    "board": [
+      {
+        "id": 5,
+        "name": "Dr. Abdoulaye Kaba",
+        "position": "Président du Conseil",
+        "image": "/images/team/abdoulaye-kaba.jpg",
+        "bio": "Ancien ministre des Mines, Dr. Kaba apporte son expertise politique et stratégique au développement du groupe."
+      },
+      {
+        "id": 6,
+        "name": "Mariama Bah",
+        "position": "Membre du Conseil",
+        "image": "/images/team/mariama-bah.jpg",
+        "bio": "Experte en droit minier et environnemental, Mariama veille à la conformité réglementaire des opérations du groupe."
+      }
+    ]
+  }

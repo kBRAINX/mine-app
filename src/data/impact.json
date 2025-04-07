@@ -1,0 +1,65 @@
+{
+    "employment": {
+      "directJobs": 250,
+      "indirectJobs": 1200,
+      "localEmployment": 85
+    },
+    "investment": {
+      "totalInvestment": 25000000,
+      "localInvestment": 8500000,
+      "infrastructureInvestment": 4700000
+    },
+    "community": {
+      "projects": [
+        {
+          "title": "Construction d'écoles",
+          "description": "Financement et construction de trois écoles primaires dans les villages proches de nos sites d'exploitation, permettant l'accès à l'éducation pour plus de 600 enfants.",
+          "image": "/images/impact/schools.jpg"
+        },
+        {
+          "title": "Programme d'accès à l'eau potable",
+          "description": "Installation de 15 forages d'eau potable équipés de pompes solaires dans des communautés rurales, améliorant les conditions de vie de plus de 8000 personnes.",
+          "image": "/images/impact/water-access.jpg"
+        },
+        {
+          "title": "Centre de santé communautaire",
+          "description": "Construction et équipement d'un centre de santé à Boké, offrant des services médicaux de base aux travailleurs et à la population locale.",
+          "image": "/images/impact/health-center.jpg"
+        }
+      ],
+      "training": {
+        "programs": 5,
+        "participants": 350,
+        "success": 85
+      }
+    },
+    "environment": {
+      "initiatives": [
+        {
+          "title": "Reboisement",
+          "description": "Programme de reboisement des zones exploitées avec des essences locales, avec plus de 10,000 arbres plantés depuis 2021.",
+          "icon": "Tree"
+        },
+        {
+          "title": "Gestion des eaux",
+          "description": "Système de traitement et de recyclage des eaux utilisées dans les processus miniers, réduisant notre consommation d'eau fraîche de 40%.",
+          "icon": "Water"
+        },
+        {
+          "title": "Énergie solaire",
+          "description": "Installation de panneaux solaires sur nos sites administratifs et certaines installations opérationnelles, réduisant notre dépendance aux générateurs diesel.",
+          "icon": "Sun"
+        },
+        {
+          "title": "Réduction des émissions",
+          "description": "Modernisation de notre flotte de véhicules et optimisation des trajets logistiques pour réduire nos émissions de CO2.",
+          "icon": "Leaf"
+        }
+      ],
+      "certifications": [
+        "ISO 14001:2015 - Système de management environnemental",
+        "OHSAS 18001 - Santé et sécurité au travail",
+        "Initiative pour la Transparence dans les Industries Extractives (ITIE)"
+      ]
+    }
+  }

@@ -1,0 +1,91 @@
+[
+    {
+      "id": 1,
+      "name": "Siège social",
+      "type": "headquarters",
+      "address": "Quartier Kipe, Commune de Ratoma",
+      "city": "Conakry",
+      "region": "Conakry",
+      "country": "Guinée",
+      "coordinates": {
+        "latitude": 9.641185,
+        "longitude": -13.578401
+      },
+      "contact": {
+        "phone": "+224 628 12 34 56",
+        "email": "contact@gtm-guinee.com"
+      },
+      "description": "Notre siège social à Conakry abrite les fonctions administratives, financières et de direction du groupe."
+    },
+    {
+      "id": 2,
+      "name": "Site d'exploitation de Boké",
+      "type": "operation",
+      "address": "Zone industrielle minière",
+      "city": "Boké",
+      "region": "Boké",
+      "country": "Guinée",
+      "coordinates": {
+        "latitude": 10.941293,
+        "longitude": -14.297302
+      },
+      "contact": {
+        "phone": "+224 628 98 76 54",
+        "email": "operations.boke@gtm-guinee.com"
+      },
+      "description": "Principal site d'exploitation de bauxite du groupe, avec une capacité de production annuelle de 1,5 million de tonnes."
+    },
+    {
+      "id": 3,
+      "name": "Site d'exploration de Siguiri",
+      "type": "exploration",
+      "address": "Zone aurifère, secteur est",
+      "city": "Siguiri",
+      "region": "Kankan",
+      "country": "Guinée",
+      "coordinates": {
+        "latitude": 11.422125,
+        "longitude": -9.168528
+      },
+      "contact": {
+        "email": "exploration.siguiri@gtm-guinee.com"
+      },
+      "description": "Site d'exploration et de développement aurifère, actuellement en phase d'étude géologique avancée."
+    },
+    {
+      "id": 4,
+      "name": "Centre de recherche de Kankan",
+      "type": "exploration",
+      "address": "Route de Bamako, km 15",
+      "city": "Kankan",
+      "region": "Kankan",
+      "country": "Guinée",
+      "coordinates": {
+        "latitude": 10.368599,
+        "longitude": -9.312455
+      },
+      "contact": {
+        "phone": "+224 624 21 43 65",
+        "email": "research.kankan@gtm-guinee.com"
+      },
+      "description": "Centre de recherche géologique et laboratoire d'analyse pour les nouveaux projets d'exploration de minerai de fer."
+    },
+    {
+      "id": 5,
+      "name": "Terminal d'exportation",
+      "type": "operation",
+      "address": "Zone portuaire",
+      "city": "Conakry",
+      "region": "Conakry",
+      "country": "Guinée",
+      "coordinates": {
+        "latitude": 9.514692,
+        "longitude": -13.712263
+      },
+      "contact": {
+        "phone": "+224 622 87 65 43",
+        "email": "logistics@gtm-guinee.com"
+      },
+      "description": "Installations portuaires pour le stockage et l'exportation des minerais extraits sur nos différents sites."
+    }
+  ]

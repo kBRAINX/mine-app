@@ -1,0 +1,85 @@
+[
+    {
+      "id": 1,
+      "title": "Projet Siguiri Gold 2024",
+      "region": "Siguiri",
+      "objective": "Exploitation d'un nouveau gisement aurifère à haut potentiel",
+      "status": "exploration",
+      "startDate": "2023-11-01",
+      "description": "Situé dans la région aurifère de Siguiri, ce projet vise à exploiter un nouveau gisement identifié en 2023. Les travaux d'exploration géologique sont actuellement en cours, avec des résultats prometteurs indiquant une teneur moyenne de 2,5 g/t.",
+      "image": "/images/projects/siguiri-gold.jpg",
+      "achievements": [
+        "Cartographie géologique complète de la zone",
+        "Premiers forages révélant des zones à haute teneur",
+        "Études d'impact environnemental en cours",
+        "Engagement communautaire initié avec les villages locaux"
+      ],
+      "partners": [
+        "Laboratoire National de Géologie",
+        "Université de Conakry - Département Géologie"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Expansion Bauxite Boké",
+      "region": "Boké",
+      "objective": "Augmentation de la capacité de production de bauxite",
+      "status": "development",
+      "startDate": "2022-06-15",
+      "completionDate": "2024-12-31",
+      "description": "Ce projet vise à étendre notre exploitation actuelle de bauxite dans la région de Boké, avec l'objectif d'augmenter notre capacité de production annuelle de 1,5 à 3 millions de tonnes.",
+      "image": "/images/projects/boke-expansion.jpg",
+      "achievements": [
+        "Acquisition de nouveaux permis d'exploitation",
+        "Installation de nouveaux équipements d'extraction",
+        "Construction d'une nouvelle unité de traitement",
+        "Développement d'infrastructures routières améliorées"
+      ],
+      "partners": [
+        "Ministère des Mines et de la Géologie",
+        "Port Autonome de Conakry",
+        "Fournisseurs d'équipements internationaux"
+      ],
+      "resources": [
+        "Bauxite à haute teneur en alumine"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Projet Kankan Exploration",
+      "region": "Kankan",
+      "objective": "Identification de nouveaux gisements de fer",
+      "status": "planning",
+      "startDate": "2024-01-15",
+      "description": "Programme d'exploration géologique dans la région de Kankan visant à identifier des gisements de minerai de fer exploitables commercialement.",
+      "image": "/images/projects/kankan-iron.jpg",
+      "achievements": [
+        "Études préliminaires de terrain réalisées",
+        "Permis d'exploration obtenus",
+        "Équipe technique constituée",
+        "Plan d'exploration détaillé établi"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Centre de Formation Technique",
+      "region": "Conakry",
+      "objective": "Développement des compétences locales dans le secteur minier",
+      "status": "development",
+      "startDate": "2023-09-01",
+      "completionDate": "2024-08-31",
+      "description": "Construction et mise en place d'un centre de formation professionnelle spécialisé dans les métiers de la mine, ouvert aux jeunes guinéens souhaitant se qualifier dans ce secteur.",
+      "image": "/images/projects/training-center.jpg",
+      "achievements": [
+        "Terrain acquis à Conakry",
+        "Plans architecturaux finalisés",
+        "Fondations du bâtiment posées",
+        "Curriculum de formation développé avec des experts internationaux"
+      ],
+      "partners": [
+        "Ministère de l'Enseignement Technique",
+        "ONG de développement des compétences",
+        "Institut Supérieur des Mines de Boké"
+      ]
+    }
+  ]

@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "title": "Exploration géologique",
+      "description": "Identification et évaluation des gisements miniers potentiels",
+      "icon": "Search",
+      "image": "/images/activities/exploration.jpg",
+      "details": [
+        "Utilisation de technologies de pointe pour l'analyse géologique",
+        "Cartographie des terrains et modélisation 3D des gisements",
+        "Évaluation des ressources selon les standards internationaux JORC",
+        "Études de faisabilité techniques et économiques"
+      ],
+      "regions": ["Boké", "Siguiri", "Kankan"]
+    },
+    {
+      "id": 2,
+      "title": "Extraction de bauxite",
+      "description": "Exploitation de gisements de bauxite de haute qualité",
+      "icon": "Mining",
+      "image": "/images/activities/bauxite.jpg",
+      "details": [
+        "Extraction à ciel ouvert avec des équipements modernes",
+        "Traitement et enrichissement du minerai sur site",
+        "Production annuelle de plus de 1,5 million de tonnes",
+        "Contrôle qualité rigoureux selon les normes internationales"
+      ],
+      "regions": ["Boké"]
+    },
+    {
+      "id": 3,
+      "title": "Exploitation aurifère",
+      "description": "Développement et exploitation de mines d'or",
+      "icon": "Gold",
+      "image": "/images/activities/gold.jpg",
+      "details": [
+        "Extraction alluviale et souterraine",
+        "Utilisation de méthodes d'extraction respectueuses de l'environnement",
+        "Laboratoire d'analyse sur site pour contrôle de qualité",
+        "Projets en phase d'exploration et de développement"
+      ],
+      "regions": ["Siguiri"]
+    },
+    {
+      "id": 4,
+      "title": "Transport et logistique",
+      "description": "Solutions logistiques intégrées pour l'acheminement des minerais",
+      "icon": "Truck",
+      "image": "/images/activities/logistics.jpg",
+      "details": [
+        "Flotte de camions pour le transport terrestre",
+        "Partenariats logistiques pour l'exportation maritime",
+        "Installations de stockage et de traitement",
+        "Système de suivi en temps réel des cargaisons"
+      ],
+      "regions": ["Boké", "Conakry"]
+    }
+  ]

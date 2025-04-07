@@ -1,0 +1,288 @@
+{
+    "common": {
+      "nav": {
+        "home": "Home",
+        "about": "About Us",
+        "activities": "Our Activities",
+        "projects": "Projects",
+        "impact": "Impact",
+        "locations": "Locations",
+        "contact": "Contact",
+        "legal": "Legal Notice"
+      },
+      "footer": {
+        "rights": "All rights reserved",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Use",
+        "contact": "Contact Us"
+      },
+      "buttons": {
+        "readMore": "Read More",
+        "viewAll": "View All",
+        "contactUs": "Contact Us",
+        "learnMore": "Learn More",
+        "submit": "Submit",
+        "discover": "Discover"
+      },
+      "theme": {
+        "light": "Light Mode",
+        "dark": "Dark Mode"
+      },
+      "lang": {
+        "fr": "French",
+        "en": "English"
+      },
+      "companyName": "Group Toumbe Manning SARL",
+      "defaultTitle": "Responsible Mining in Guinea",
+      "description": "Responsible Mining Company in Guinea"
+    },
+    "home": {
+      "hero": {
+        "title": "Welcome to Group Toumbe Manning SARL",
+        "subtitle": "A dynamic player in Guinea's mining sector",
+        "description": "We contribute to the responsible exploitation of natural resources while supporting local economic development.",
+        "cta": "Discover our activities"
+      },
+      "intro": {
+        "title": "Responsible Mining",
+        "description": "Group Toumbe Manning SARL is engaged in the exploration, exploitation, and marketing of strategic mineral resources in Guinea, with a focus on bauxite, gold, and iron."
+      },
+      "activities": {
+        "title": "Our Areas of Expertise",
+        "subtitle": "Discover our main activities"
+      },
+      "stats": {
+        "title": "Our Impact in Numbers",
+        "employees": "Employees",
+        "projects": "Active Projects",
+        "regions": "Operating Regions",
+        "investment": "Total Investment (USD)"
+      },
+      "testimonials": {
+        "title": "What Our Partners Say"
+      },
+      "cta": {
+        "title": "Interested in Collaboration?",
+        "description": "Discover how we can work together to create shared value.",
+        "button": "Contact Us"
+      }
+    },
+    "about": {
+      "hero": {
+        "title": "About Us",
+        "subtitle": "Discover Group Toumbe Manning"
+      },
+      "intro": {
+        "title": "Who We Are",
+        "description": "Founded in Guinea, Group Toumbe Manning SARL is a mining company engaged in the exploration, exploitation, and marketing of strategic mineral resources."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "description": "To exploit natural resources responsibly and sustainably, serving Guinea's economic and social progress."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To become a regional leader in the mining sector, recognized for our operational excellence, environmental commitment, and positive contribution to local communities."
+      },
+      "values": {
+        "title": "Our Values"
+      },
+      "history": {
+        "title": "Our History",
+        "description": "Since our founding, we have experienced steady growth based on solid principles."
+      },
+      "team": {
+        "title": "Our Leadership Team",
+        "description": "Experienced professionals guide our company toward excellence.",
+        "management": "Management Team",
+        "board": "Board of Directors"
+      },
+      "registration": {
+        "title": "Legal Information",
+        "rccm": "RCCM",
+        "nif": "NIF"
+      }
+    },
+    "activities": {
+      "hero": {
+        "title": "Our Activities",
+        "subtitle": "Expertise and Know-How"
+      },
+      "intro": {
+        "title": "Our Areas of Expertise",
+        "description": "Group Toumbe Manning SARL operates throughout the mining value chain, from prospecting to exploitation and export."
+      },
+      "regions": {
+        "title": "Our Operating Regions",
+        "boké": "Boké",
+        "siguiri": "Siguiri",
+        "kankan": "Kankan",
+        "conakry": "Conakry"
+      },
+      "details": "Details",
+      "regions_active": "Active Regions"
+    },
+    "projects": {
+      "hero": {
+        "title": "Our Projects",
+        "subtitle": "Innovation and Development"
+      },
+      "intro": {
+        "title": "Current Projects",
+        "description": "Discover our current and future projects for mining development in Guinea."
+      },
+      "filters": {
+        "all": "All",
+        "planning": "Planning",
+        "exploration": "Exploration",
+        "development": "Development",
+        "production": "Production",
+        "completed": "Completed"
+      },
+      "details": {
+        "objective": "Objective",
+        "region": "Region",
+        "status": "Status",
+        "startDate": "Start Date",
+        "completionDate": "Expected Completion Date",
+        "achievements": "Achievements",
+        "partners": "Partners",
+        "resources": "Resources"
+      },
+      "status": {
+        "planning": "Planning",
+        "exploration": "Exploration",
+        "development": "Development",
+        "production": "Production",
+        "completed": "Completed"
+      }
+    },
+    "impact": {
+      "hero": {
+        "title": "Our Impact",
+        "subtitle": "Economic and Social Contribution"
+      },
+      "intro": {
+        "title": "Our Impact in Guinea",
+        "description": "We are proud to actively contribute to Guinea's economic and social development through our various initiatives."
+      },
+      "employment": {
+        "title": "Employment",
+        "directJobs": "Direct Jobs",
+        "indirectJobs": "Indirect Jobs",
+        "localEmployment": "Local Employment Rate"
+      },
+      "investment": {
+        "title": "Investment",
+        "total": "Total Investment",
+        "local": "Local Investment",
+        "infrastructure": "Infrastructure"
+      },
+      "community": {
+        "title": "Community Projects",
+        "description": "We actively support the development of local communities through various projects.",
+        "training": {
+          "title": "Training",
+          "programs": "Programs",
+          "participants": "Participants",
+          "success": "Success Rate"
+        }
+      },
+      "environment": {
+        "title": "Environmental Initiatives",
+        "description": "Our commitment to minimizing our environmental impact and contributing to environmental preservation.",
+        "certifications": {
+          "title": "Certifications"
+        }
+      }
+    },
+    "locations": {
+      "hero": {
+        "title": "Our Locations",
+        "subtitle": "Geographical Presence"
+      },
+      "intro": {
+        "title": "Our Presence in Guinea",
+        "description": "Group Toumbe Manning SARL is present in several strategic regions of Guinea, with its headquarters in Conakry and operating sites in the country's main mining areas."
+      },
+      "headquarters": "Headquarters",
+      "operations": "Operating Sites",
+      "exploration": "Exploration Sites",
+      "contact": {
+        "phone": "Phone",
+        "email": "Email"
+      }
+    },
+    "contact": {
+      "hero": {
+        "title": "Contact Us",
+        "subtitle": "We're here to listen"
+      },
+      "intro": {
+        "title": "A question? A partnership opportunity?",
+        "description": "We are at your disposal to answer all your questions and discuss potential collaborations."
+      },
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "submit": "Send",
+        "success": "Your message has been sent successfully. We will respond to you shortly.",
+        "error": "An error occurred while sending your message. Please try again."
+      },
+      "info": {
+        "title": "Contact Information",
+        "address": "Address",
+        "phone": "Phone",
+        "email": "Email",
+        "hours": "Opening Hours"
+      },
+      "map": {
+        "title": "Find Us"
+      }
+    },
+    "legal": {
+      "hero": {
+        "title": "Legal Notice",
+        "subtitle": "Regulatory Information"
+      },
+      "company": {
+        "title": "Legal Information",
+        "name": "Company Name",
+        "address": "Address",
+        "registration": "Registration",
+        "capital": "Share Capital"
+      },
+      "website": {
+        "title": "Website",
+        "publisher": "Publisher",
+        "hosting": "Hosting",
+        "webmaster": "Webmaster"
+      },
+      "privacy": {
+        "title": "Privacy Policy",
+        "data": "Personal Data",
+        "cookies": "Cookies",
+        "rights": "Your Rights"
+      },
+      "terms": {
+        "title": "Terms of Use",
+        "content": "Content",
+        "intellectual": "Intellectual Property",
+        "liability": "Liability"
+      }
+    },
+    "errors": {
+      "404": {
+        "title": "Page Not Found",
+        "description": "The page you are looking for does not exist or has been moved.",
+        "button": "Back to Home"
+      },
+      "500": {
+        "title": "Server Error",
+        "description": "An error occurred on our server. Please try again later.",
+        "button": "Back to Home"
+      }
+    }
+  }

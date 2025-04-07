@@ -1,0 +1,288 @@
+{
+    "common": {
+      "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "activities": "Nos activités",
+        "projects": "Projets",
+        "impact": "Impact",
+        "locations": "Localisation",
+        "contact": "Contact",
+        "legal": "Mentions légales"
+      },
+      "footer": {
+        "rights": "Tous droits réservés",
+        "privacy": "Politique de confidentialité",
+        "terms": "Conditions d'utilisation",
+        "contact": "Nous contacter"
+      },
+      "buttons": {
+        "readMore": "Lire plus",
+        "viewAll": "Voir tout",
+        "contactUs": "Nous contacter",
+        "learnMore": "En savoir plus",
+        "submit": "Envoyer",
+        "discover": "Découvrir"
+      },
+      "theme": {
+        "light": "Mode clair",
+        "dark": "Mode sombre"
+      },
+      "lang": {
+        "fr": "Français",
+        "en": "Anglais"
+      },
+      "companyName": "Group Toumbe Manning SARL",
+      "defaultTitle": "Exploitation minière responsable en Guinée",
+      "description": "Entreprise minière responsable en Guinée"
+    },
+    "home": {
+      "hero": {
+        "title": "Bienvenue chez Group Toumbe Manning SARL",
+        "subtitle": "Acteur dynamique du secteur minier en Guinée",
+        "description": "Nous contribuons à l'exploitation responsable des ressources naturelles tout en soutenant le développement économique local.",
+        "cta": "Découvrez nos activités"
+      },
+      "intro": {
+        "title": "Exploitation minière responsable",
+        "description": "Group Toumbe Manning SARL est engagé dans l'exploration, l'exploitation et la commercialisation de ressources minières stratégiques en Guinée, avec un focus sur la bauxite, l'or et le fer."
+      },
+      "activities": {
+        "title": "Nos domaines d'expertise",
+        "subtitle": "Découvrez nos principales activités"
+      },
+      "stats": {
+        "title": "Notre impact en chiffres",
+        "employees": "Employés",
+        "projects": "Projets actifs",
+        "regions": "Régions d'activité",
+        "investment": "Investissement total (USD)"
+      },
+      "testimonials": {
+        "title": "Ce que disent nos partenaires"
+      },
+      "cta": {
+        "title": "Intéressé par une collaboration ?",
+        "description": "Découvrez comment nous pouvons travailler ensemble pour créer de la valeur partagée.",
+        "button": "Contactez-nous"
+      }
+    },
+    "about": {
+      "hero": {
+        "title": "À propos de nous",
+        "subtitle": "Découvrez Group Toumbe Manning"
+      },
+      "intro": {
+        "title": "Qui sommes-nous ?",
+        "description": "Fondée en Guinée, Group Toumbe Manning SARL est une société minière engagée dans l'exploration, l'exploitation et la commercialisation de ressources minières stratégiques."
+      },
+      "mission": {
+        "title": "Notre mission",
+        "description": "Exploiter les richesses naturelles de manière responsable et durable, au service du progrès économique et social de la Guinée."
+      },
+      "vision": {
+        "title": "Notre vision",
+        "description": "Devenir un leader régional du secteur minier, reconnu pour son excellence opérationnelle, son engagement environnemental et sa contribution positive aux communautés locales."
+      },
+      "values": {
+        "title": "Nos valeurs"
+      },
+      "history": {
+        "title": "Notre histoire",
+        "description": "Depuis notre création, nous avons connu une croissance constante basée sur des principes solides."
+      },
+      "team": {
+        "title": "Notre équipe dirigeante",
+        "description": "Des professionnels expérimentés guident notre entreprise vers l'excellence.",
+        "management": "Équipe de direction",
+        "board": "Conseil d'administration"
+      },
+      "registration": {
+        "title": "Informations légales",
+        "rccm": "RCCM",
+        "nif": "NIF"
+      }
+    },
+    "activities": {
+      "hero": {
+        "title": "Nos activités",
+        "subtitle": "Expertise et savoir-faire"
+      },
+      "intro": {
+        "title": "Nos domaines d'expertise",
+        "description": "Group Toumbe Manning SARL intervient tout au long de la chaîne de valeur minière, depuis la prospection jusqu'à l'exploitation et l'exportation."
+      },
+      "regions": {
+        "title": "Nos régions d'activité",
+        "boké": "Boké",
+        "siguiri": "Siguiri",
+        "kankan": "Kankan",
+        "conakry": "Conakry"
+      },
+      "details": "Détails",
+      "regions_active": "Régions actives"
+    },
+    "projects": {
+      "hero": {
+        "title": "Nos projets",
+        "subtitle": "Innovation et développement"
+      },
+      "intro": {
+        "title": "Projets en cours",
+        "description": "Découvrez nos projets actuels et futurs pour le développement minier en Guinée."
+      },
+      "filters": {
+        "all": "Tous",
+        "planning": "En planification",
+        "exploration": "Exploration",
+        "development": "Développement",
+        "production": "Production",
+        "completed": "Terminé"
+      },
+      "details": {
+        "objective": "Objectif",
+        "region": "Région",
+        "status": "Statut",
+        "startDate": "Date de début",
+        "completionDate": "Date de fin prévue",
+        "achievements": "Réalisations",
+        "partners": "Partenaires",
+        "resources": "Ressources"
+      },
+      "status": {
+        "planning": "Planification",
+        "exploration": "Exploration",
+        "development": "Développement",
+        "production": "Production",
+        "completed": "Terminé"
+      }
+    },
+    "impact": {
+      "hero": {
+        "title": "Notre impact",
+        "subtitle": "Contribution économique et sociale"
+      },
+      "intro": {
+        "title": "Notre impact en Guinée",
+        "description": "Nous sommes fiers de contribuer activement au développement économique et social de la Guinée à travers nos diverses initiatives."
+      },
+      "employment": {
+        "title": "Emploi",
+        "directJobs": "Emplois directs",
+        "indirectJobs": "Emplois indirects",
+        "localEmployment": "Taux d'emploi local"
+      },
+      "investment": {
+        "title": "Investissement",
+        "total": "Investissement total",
+        "local": "Investissement local",
+        "infrastructure": "Infrastructures"
+      },
+      "community": {
+        "title": "Projets communautaires",
+        "description": "Nous soutenons activement le développement des communautés locales à travers divers projets.",
+        "training": {
+          "title": "Formation",
+          "programs": "Programmes",
+          "participants": "Participants",
+          "success": "Taux de réussite"
+        }
+      },
+      "environment": {
+        "title": "Initiatives environnementales",
+        "description": "Notre engagement pour minimiser notre impact environnemental et contribuer à la préservation de l'environnement.",
+        "certifications": {
+          "title": "Certifications"
+        }
+      }
+    },
+    "locations": {
+      "hero": {
+        "title": "Nos implantations",
+        "subtitle": "Présence géographique"
+      },
+      "intro": {
+        "title": "Notre présence en Guinée",
+        "description": "Group Toumbe Manning SARL est présent dans plusieurs régions stratégiques de la Guinée, avec son siège social à Conakry et des sites d'exploitation dans les principales zones minières du pays."
+      },
+      "headquarters": "Siège social",
+      "operations": "Sites d'exploitation",
+      "exploration": "Sites d'exploration",
+      "contact": {
+        "phone": "Téléphone",
+        "email": "Email"
+      }
+    },
+    "contact": {
+      "hero": {
+        "title": "Contactez-nous",
+        "subtitle": "Nous sommes à votre écoute"
+      },
+      "intro": {
+        "title": "Une question ? Une opportunité de partenariat ?",
+        "description": "Nous sommes à votre disposition pour répondre à toutes vos questions et discuter de potentielles collaborations."
+      },
+      "form": {
+        "name": "Nom",
+        "email": "Email",
+        "subject": "Sujet",
+        "message": "Message",
+        "submit": "Envoyer",
+        "success": "Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.",
+        "error": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer."
+      },
+      "info": {
+        "title": "Informations de contact",
+        "address": "Adresse",
+        "phone": "Téléphone",
+        "email": "Email",
+        "hours": "Heures d'ouverture"
+      },
+      "map": {
+        "title": "Nous trouver"
+      }
+    },
+    "legal": {
+      "hero": {
+        "title": "Mentions légales",
+        "subtitle": "Informations réglementaires"
+      },
+      "company": {
+        "title": "Informations légales",
+        "name": "Raison sociale",
+        "address": "Adresse",
+        "registration": "Immatriculation",
+        "capital": "Capital social"
+      },
+      "website": {
+        "title": "Site internet",
+        "publisher": "Éditeur",
+        "hosting": "Hébergement",
+        "webmaster": "Webmaster"
+      },
+      "privacy": {
+        "title": "Politique de confidentialité",
+        "data": "Données personnelles",
+        "cookies": "Cookies",
+        "rights": "Vos droits"
+      },
+      "terms": {
+        "title": "Conditions d'utilisation",
+        "content": "Contenu",
+        "intellectual": "Propriété intellectuelle",
+        "liability": "Responsabilité"
+      }
+    },
+    "errors": {
+      "404": {
+        "title": "Page non trouvée",
+        "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+        "button": "Retour à l'accueil"
+      },
+      "500": {
+        "title": "Erreur serveur",
+        "description": "Une erreur s'est produite sur notre serveur. Veuillez réessayer ultérieurement.",
+        "button": "Retour à l'accueil"
+      }
+    }
+  }
