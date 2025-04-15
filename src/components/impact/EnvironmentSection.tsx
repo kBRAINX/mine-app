@@ -1,7 +1,6 @@
 'use client';
 
 import { JSX } from 'react';
-import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
@@ -13,7 +12,6 @@ import { BsTree } from 'react-icons/bs';
 import Button from '../ui/Button';
 
 export function EnvironmentSection() {
-    const t = useTranslations('impact.environment');
     const [impact, setImpact] = useState<Impact | null>(null);
 
     useEffect(() => {
@@ -34,9 +32,9 @@ export function EnvironmentSection() {
       <Section>
         <Container>
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="section-heading">{t('title')}</h2>
+            <h2 className="section-heading">Initiatives environnementales</h2>
             <p className="section-subheading">
-              {t('description')}
+                Notre engagement pour minimiser notre impact environnemental et contribuer à la préservation de l&apos;environnement.
             </p>
           </div>
 
@@ -61,7 +59,7 @@ export function EnvironmentSection() {
           <div className="mt-16">
             <div className="rounded-lg bg-green-50 p-8 dark:bg-green-900/20">
               <h3 className="mb-6 text-2xl font-bold text-mining-dark dark:text-mining-light">
-                {t('certifications.title')}
+                  Nos Certifications
               </h3>
 
               <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">

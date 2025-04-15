@@ -1,28 +1,17 @@
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
-import { locales, defaultLocale } from '@/lib/i18n/config';
+import { locales } from '@/lib/i18n/config'
+import createMiddleware from 'next-intl/middleware'
 
-export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-  const pathnameHasLocale = locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  );
+// Le middleware qui va gérer les redirections de langue
+export default createMiddleware({
+  // Une liste des locales disponibles
+  locales,
+  // La locale par défaut
+  defaultLocale: 'fr',
+  // Si l'URL est à la racine, rediriger vers la locale par défaut
+  localePrefix: 'always'
+})
 
-  if (pathnameHasLocale) return;
-
-  // Déterminer la locale
-  const locale = request.cookies.get('NEXT_LOCALE')?.value ||
-                 request.headers.get('accept-language')?.split(',')[0].split('-')[0] ||
-                 defaultLocale;
-
-  // Réécrir l'URL avec la locale
-  request.nextUrl.pathname = `/${locale}${pathname}`;
-  return NextResponse.rewrite(request.nextUrl);
-}
-
+// Définissez sur quels chemins le middleware doit s'exécuter
 export const config = {
-  matcher: [
-    // Exclure les fichiers et routes spécifiques
-    '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml).*)',
-  ],
-};
+  matcher: ['/((?!api|_next|.*\\..*).*)']
+}

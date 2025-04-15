@@ -1,6 +1,5 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
@@ -12,7 +11,6 @@ import { useEffect, useState } from 'react';
 import { Project } from '@/types/Project';
 
 export default function ProjectsHighlight() {
-  const t = useTranslations('projects');
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
@@ -57,7 +55,7 @@ export default function ProjectsHighlight() {
                         : 'warning'
                     }
                   >
-                    {t(`status.${project.status}`)}
+                    {project.status}
                   </Badge>
                 </div>
               </div>

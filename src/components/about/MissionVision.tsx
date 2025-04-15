@@ -3,12 +3,10 @@ import { Card, CardContent } from "../ui/Card";
 import Container from "../ui/Container";
 import Section from "../ui/Section";
 import { useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
 import { Company } from "@/types/Company";
 import companyData from '@/data/company.json';
 
 export function MissionVision() {
-    const t = useTranslations('about');
     const [company, setCompany] = useState<Company | null>(null);
 
     useEffect(() => {
@@ -28,7 +26,7 @@ export function MissionVision() {
                   <FiBarChart className="h-6 w-6" />
                 </div>
                 <h3 className="mb-4 text-2xl font-bold text-mining-dark dark:text-mining-light">
-                  {t('mission.title')}
+                    Notre mission
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
                   {company.mission}
@@ -43,7 +41,7 @@ export function MissionVision() {
                   <FiGlobe className="h-6 w-6" />
                 </div>
                 <h3 className="mb-4 text-2xl font-bold text-mining-dark dark:text-mining-light">
-                  {t('vision.title')}
+                    Notre vision
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
                   {company.vision}

@@ -1,7 +1,6 @@
 'use client';
 
 import type { JSX } from 'react';
-import { useTranslations } from 'next-intl';
 import { FiSearch, FiTruck, FiBarChart2, FiAward } from 'react-icons/fi';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
@@ -20,12 +19,10 @@ const iconMap: Record<string, JSX.Element> = {
 };
 
 export default function ActivitiesHighlight() {
-  const t = useTranslations('home.activities');
   const [activities, setActivities] = useState<Activity[]>([]);
 
   useEffect(() => {
     // On utilise les données importées du JSON
-    // Dans un cas réel avec une API, on pourrait faire un fetch ici
     setActivities(activitiesData as Activity[]);
   }, []);
 
@@ -33,8 +30,8 @@ export default function ActivitiesHighlight() {
     <Section className="bg-gray-50 dark:bg-gray-900">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="section-heading">{t('title')}</h2>
-          <p className="section-subheading">{t('subtitle')}</p>
+          <h2 className="section-heading">Nos domaines d&apos;expertise</h2>
+          <p className="section-subheading">Découvrez nos principales activités</p>
         </div>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">

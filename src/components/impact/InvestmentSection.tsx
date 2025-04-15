@@ -1,6 +1,5 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
@@ -11,7 +10,6 @@ import { StatCard } from '../ui/StatCard';
 import { formatCurrency } from '@/lib/utils';
 
 export function InvestmentSection() {
-    const t = useTranslations('impact.investment');
     const [impact, setImpact] = useState<Impact | null>(null);
 
     useEffect(() => {
@@ -24,26 +22,26 @@ export function InvestmentSection() {
       <Section>
         <Container>
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="section-heading">{t('title')}</h2>
+            <h2 className="section-heading">Investissement</h2>
           </div>
 
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             <StatCard
               icon={<FiDollarSign className="h-8 w-8 text-primary-600 dark:text-primary-400" />}
-              title={t('total')}
-              value={formatCurrency(impact.investment.totalInvestment, 'USD')}
+              title="Investissement total"
+              value={formatCurrency(impact.investment.totalInvestment*20, 'XAF')}
             />
 
             <StatCard
               icon={<FiHome className="h-8 w-8 text-secondary-600 dark:text-secondary-400" />}
-              title={t('local')}
-              value={formatCurrency(impact.investment.localInvestment, 'USD')}
+              title="Investissement local"
+              value={formatCurrency(impact.investment.localInvestment*20, 'XAF')}
             />
 
             <StatCard
               icon={<FiTarget className="h-8 w-8 text-mining-copper dark:text-mining-gold" />}
-              title={t('infrastructure')}
-              value={formatCurrency(impact.investment.infrastructureInvestment, 'USD')}
+              title="Infrastructures"
+              value={formatCurrency(impact.investment.infrastructureInvestment*20, 'XAF')}
             />
           </div>
 

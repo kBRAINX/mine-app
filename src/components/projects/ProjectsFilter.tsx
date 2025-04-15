@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
@@ -7,7 +6,6 @@ import { Project } from '@/types/Project';
 import { ProjectCard } from './ProjectCard';
 
 export function ProjectsFilter() {
-    const t = useTranslations('projects');
     const [projects, setProjects] = useState<Project[]>([]);
     const [filteredProjects, setFilteredProjects] = useState<Project[]>([]);
     const [activeFilter, setActiveFilter] = useState<string>('all');
@@ -19,12 +17,12 @@ export function ProjectsFilter() {
     }, []);
 
     const filters = [
-      { id: 'all', label: t('filters.all') },
-      { id: 'planning', label: t('filters.planning') },
-      { id: 'exploration', label: t('filters.exploration') },
-      { id: 'development', label: t('filters.development') },
-      { id: 'production', label: t('filters.production') },
-      { id: 'completed', label: t('filters.completed') },
+      { id: 'all', label: "Tous" },
+      { id: 'planning', label: "En planification" },
+      { id: 'exploration', label: "Exploration" },
+      { id: 'development', label: "Développement" },
+      { id: 'production', label: "Production" },
+      { id: 'completed', label: "Terminé" },
     ];
 
     const handleFilterChange = (filter: string) => {

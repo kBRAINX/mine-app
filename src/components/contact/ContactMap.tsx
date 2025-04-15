@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
@@ -8,7 +7,6 @@ import { Location } from '@/types/Location';
 
 
 export function ContactMap() {
-    const t = useTranslations('contact.map');
     const headquarters = (locationsData as Location[]).find(location => location.type === 'headquarters');
 
     if (!headquarters) return null;
@@ -18,7 +16,7 @@ export function ContactMap() {
         <Container>
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="mb-8 text-2xl font-bold text-mining-dark dark:text-mining-light">
-              {t('title')}
+                Nous trouver
             </h2>
           </div>
 

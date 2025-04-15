@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
 import { Card, CardContent } from '@/components/ui/Card';
@@ -8,7 +7,6 @@ import { Location } from '@/types/Location';
 
 
 export function ContactInfo() {
-    const t = useTranslations('contact.info');
     const headquarters = (locationsData as Location[]).find(location => location.type === 'headquarters');
 
     if (!headquarters) return null;
@@ -18,7 +16,7 @@ export function ContactInfo() {
         <Container>
           <div className="mx-auto max-w-3xl">
             <h2 className="text-center text-2xl font-bold text-mining-dark dark:text-mining-light">
-              {t('title')}
+                Informations de contact
             </h2>
 
             <div className="mt-8 grid gap-8 md:grid-cols-2">
@@ -29,7 +27,7 @@ export function ContactInfo() {
                       <FiMapPin className="h-6 w-6" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-mining-dark dark:text-mining-light">{t('address')}</h3>
+                      <h3 className="font-semibold text-mining-dark dark:text-mining-light">Adresse</h3>
                     </div>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">
@@ -45,7 +43,7 @@ export function ContactInfo() {
                       <FiPhone className="h-6 w-6" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-mining-dark dark:text-mining-light">{t('phone')}</h3>
+                      <h3 className="font-semibold text-mining-dark dark:text-mining-light">Téléphone</h3>
                     </div>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">
@@ -61,7 +59,7 @@ export function ContactInfo() {
                       <FiMail className="h-6 w-6" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-mining-dark dark:text-mining-light">{t('email')}</h3>
+                      <h3 className="font-semibold text-mining-dark dark:text-mining-light">Email</h3>
                     </div>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">
@@ -77,7 +75,7 @@ export function ContactInfo() {
                       <FiClock className="h-6 w-6" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-mining-dark dark:text-mining-light">{t('hours')}</h3>
+                      <h3 className="font-semibold text-mining-dark dark:text-mining-light">Heures d&apos;ouverture</h3>
                     </div>
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">

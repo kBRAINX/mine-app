@@ -1,6 +1,5 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { Card, CardContent } from '@/components/ui/Card';
 import { Location } from '@/types/Location';
 import { FiMapPin, FiPhone, FiMail, FiHome, FiTool, FiSearch } from 'react-icons/fi';
@@ -11,7 +10,6 @@ interface LocationCardProps {
   }
 
   export function LocationCard({ location }: LocationCardProps) {
-    const t = useTranslations('locations');
 
     const getLocationIcon = (type: string) => {
       switch (type) {
@@ -29,11 +27,11 @@ interface LocationCardProps {
     const getLocationTitle = (type: string) => {
       switch (type) {
         case 'headquarters':
-          return t('headquarters');
+          return "Siège social";
         case 'operation':
-          return t('operations');
+          return "Sites d'exploitation";
         case 'exploration':
-          return t('exploration');
+          return "Sites d'exploration";
         default:
           return 'Location';
       }
@@ -74,7 +72,7 @@ interface LocationCardProps {
                 <div className="flex items-center">
                   <FiPhone className="mr-2 h-5 w-5 text-gray-500 dark:text-gray-400" />
                   <span className="text-gray-600 dark:text-gray-300">
-                    {t('contact.phone')}: {location.contact.phone}
+                    Téléphone: {location.contact.phone}
                   </span>
                 </div>
               )}
@@ -83,7 +81,7 @@ interface LocationCardProps {
                 <div className="flex items-center">
                   <FiMail className="mr-2 h-5 w-5 text-gray-500 dark:text-gray-400" />
                   <span className="text-gray-600 dark:text-gray-300">
-                    {t('contact.email')}: {location.contact.email}
+                    Email: {location.contact.email}
                   </span>
                 </div>
               )}

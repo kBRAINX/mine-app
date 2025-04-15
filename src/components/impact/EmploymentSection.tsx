@@ -1,6 +1,5 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Container from '@/components/ui/Container';
@@ -11,7 +10,6 @@ import { Impact } from '@/types/Impact';
 import { StatCard } from '../ui/StatCard';
 
 export function EmploymentSection() {
-    const t = useTranslations('impact.employment');
     const [impact, setImpact] = useState<Impact | null>(null);
 
     useEffect(() => {
@@ -24,27 +22,27 @@ export function EmploymentSection() {
       <Section className="bg-gray-50 dark:bg-gray-900">
         <Container>
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="section-heading">{t('title')}</h2>
+            <h2 className="section-heading">Emploi</h2>
           </div>
 
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             <StatCard
               icon={<FiUsers className="h-8 w-8 text-primary-600 dark:text-primary-400" />}
-              title={t('directJobs')}
+              title="Emplois directs"
               value={impact.employment.directJobs}
               suffix="+"
             />
 
             <StatCard
               icon={<FiUsers className="h-8 w-8 text-secondary-600 dark:text-secondary-400" />}
-              title={t('indirectJobs')}
+              title="Emplois indirects"
               value={impact.employment.indirectJobs}
               suffix="+"
             />
 
             <StatCard
               icon={<FiTarget className="h-8 w-8 text-mining-copper dark:text-mining-gold" />}
-              title={t('localEmployment')}
+              title="Taux d'emploi local"
               value={impact.employment.localEmployment}
               suffix="%"
             />

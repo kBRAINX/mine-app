@@ -1,7 +1,5 @@
-
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
@@ -12,7 +10,6 @@ import { Card, CardContent } from '@/components/ui/Card';
 import { FiCheck, FiAlertTriangle } from 'react-icons/fi';
 
 export function ContactForm() {
-    const t = useTranslations('contact');
     const [formData, setFormData] = useState({
       name: '',
       email: '',
@@ -56,9 +53,9 @@ export function ContactForm() {
       <Section>
         <Container>
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="section-heading">{t('intro.title')}</h2>
+            <h2 className="section-heading">Une question ? Une opportunité de partenariat ?</h2>
             <p className="section-subheading">
-              {t('intro.description')}
+                Nous sommes à votre disposition pour répondre à toutes vos questions et discuter de potentielles collaborations.
             </p>
           </div>
 
@@ -71,14 +68,14 @@ export function ContactForm() {
                       <FiCheck className="h-8 w-8" />
                     </div>
                     <h3 className="mb-2 text-xl font-semibold text-mining-dark dark:text-mining-light">
-                      {t('form.success')}
+                        Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.
                     </h3>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid gap-6 md:grid-cols-2">
                       <Input
-                        label={t('form.name')}
+                        label="Nom"
                         id="name"
                         name="name"
                         type="text"
@@ -88,7 +85,7 @@ export function ContactForm() {
                       />
 
                       <Input
-                        label={t('form.email')}
+                        label="Email"
                         id="email"
                         name="email"
                         type="email"
@@ -99,7 +96,7 @@ export function ContactForm() {
                     </div>
 
                     <Input
-                      label={t('form.subject')}
+                      label="Sujet"
                       id="subject"
                       name="subject"
                       type="text"
@@ -108,7 +105,7 @@ export function ContactForm() {
                     />
 
                     <TextArea
-                      label={t('form.message')}
+                      label="Message"
                       id="message"
                       name="message"
                       rows={6}
@@ -120,7 +117,7 @@ export function ContactForm() {
                     {formStatus === 'error' && (
                       <div className="flex items-center rounded-md bg-red-50 p-4 text-red-600 dark:bg-red-900/20 dark:text-red-400">
                         <FiAlertTriangle className="mr-2 h-5 w-5" />
-                        <span>{t('form.error')}</span>
+                        <span>Une erreur s&apos;est produite lors de l&apos;envoi de votre message. Veuillez réessayer.</span>
                       </div>
                     )}
 
@@ -130,7 +127,7 @@ export function ContactForm() {
                         disabled={formStatus === 'loading'}
                         className="px-8"
                       >
-                        {formStatus === 'loading' ? 'Envoi en cours...' : t('form.submit')}
+                        {formStatus === 'loading' ? 'Envoi en cours...' : 'Envoyer'}
                       </Button>
                     </div>
                   </form>

@@ -1,6 +1,5 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
@@ -11,7 +10,6 @@ import { LocationCard } from './LocationCard';
 
 
 export function LocationsList() {
-    const t = useTranslations('locations');
     const [locations, setLocations] = useState<Location[]>([]);
     const [activeTab, setActiveTab] = useState<string>('all');
 
@@ -74,7 +72,7 @@ export function LocationsList() {
               }`}
               onClick={() => setActiveTab('headquarters')}
             >
-              {t('headquarters')}
+              Siège social
             </button>
             <button
               className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
@@ -84,7 +82,7 @@ export function LocationsList() {
               }`}
               onClick={() => setActiveTab('operation')}
             >
-              {t('operations')}
+              Sites d&lsquo;`opération
             </button>
             <button
               className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
@@ -94,7 +92,7 @@ export function LocationsList() {
               }`}
               onClick={() => setActiveTab('exploration')}
             >
-              {t('exploration')}
+              Sites d&lsquo;`exploitation
             </button>
           </div>
 

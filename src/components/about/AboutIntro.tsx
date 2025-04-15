@@ -2,12 +2,10 @@ import Image from "next/image";
 import Section from "../ui/Section";
 import Container from "../ui/Container";
 import { useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
 import { Company } from "@/types/Company";
 import companyData from '@/data/company.json';
 
 export function AboutIntro() {
-    const t = useTranslations('about.intro');
     const [company, setCompany] = useState<Company | null>(null);
 
     useEffect(() => {
@@ -21,10 +19,10 @@ export function AboutIntro() {
         <Container>
           <div className="grid gap-12 md:grid-cols-2">
             <div>
-              <h2 className="section-heading">{t('title')}</h2>
+              <h2 className="section-heading">Qui sommes-nous ?</h2>
               <p className="section-subheading mb-6">{company.description}</p>
               <p className="text-gray-600 dark:text-gray-300">
-                {t('description')}
+              Fondée en Guinée, Group Toumbe Manning SARL est une société minière engagée dans l&apos;exploration, l&apos;exploitation et la commercialisation de ressources minières stratégiques.
               </p>
             </div>
             <div className="relative">

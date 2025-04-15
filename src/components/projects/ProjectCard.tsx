@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Button from "../ui/Button";
-import { useTranslations } from "next-intl";
 import { Project } from "@/types/Project";
 import Badge from "../ui/Badge";
 import { formatDate } from "@/lib/utils";
@@ -10,8 +9,6 @@ interface ProjectCardProps {
   }
 
   export function ProjectCard({ project }: ProjectCardProps) {
-    const t = useTranslations('projects');
-
     // Mapping des statuts vers des variantes de badge
     const statusVariantMap: Record<string, string> = {
       'planning': 'default',
@@ -35,7 +32,7 @@ interface ProjectCardProps {
             <Badge
               variant={statusVariantMap[project.status] as 'default'}
             >
-              {t(`status.${project.status}`)}
+              {project.status.charAt(0).toUpperCase() + project.status.slice(1)}
             </Badge>
           </div>
         </div>
@@ -46,10 +43,10 @@ interface ProjectCardProps {
           </h3>
           <div className="mb-4 grid grid-cols-2 gap-2 text-sm text-gray-600 dark:text-gray-300">
             <div>
-              <span className="font-medium">{t('details.region')}:</span> {project.region}
+              <span className="font-medium">Région:</span> {project.region}
             </div>
             <div>
-              <span className="font-medium">{t('details.startDate')}:</span> {formatDate(project.startDate)}
+              <span className="font-medium">Date de début:</span> {formatDate(project.startDate)}
             </div>
           </div>
           <p className="mb-4 line-clamp-3 text-gray-600 dark:text-gray-300">

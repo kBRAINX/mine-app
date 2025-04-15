@@ -1,19 +1,17 @@
-import { useTranslations } from "next-intl";
 import Hero from "../ui/Hero";
 
 export function ContactHero() {
-    const t = useTranslations('contact.hero');
 
     return (
       <Hero
-        title={t('title')}
-        subtitle={t('subtitle')}
+        title="Contactez-nous"
+        subtitle="Nous sommes à votre écoute"
         backgroundImage="/images/contact/contact-hero.jpg"
         centered
       >
         <div className="flex justify-center space-x-4">
             <a href="#contact" className="btn btn-primary">
-                {t('button')}
+                Contactez-nous
             </a>
         </div>
       </Hero>

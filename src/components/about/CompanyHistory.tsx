@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
@@ -7,7 +6,6 @@ import companyData from '@/data/company.json';
 import { Company } from '@/types/Company';
 
 export function CompanyHistory() {
-    const t = useTranslations('about.history');
     const [company, setCompany] = useState<Company | null>(null);
 
     useEffect(() => {
@@ -20,9 +18,9 @@ export function CompanyHistory() {
       <Section className="bg-gray-50 dark:bg-gray-900">
         <Container>
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="section-heading">{t('title')}</h2>
+            <h2 className="section-heading">Notre histoire</h2>
             <p className="section-subheading">
-              {t('description')}
+            Depuis notre création, nous avons connu une croissance constante basée sur des principes solides.
             </p>
           </div>
 

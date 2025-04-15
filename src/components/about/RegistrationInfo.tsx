@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
@@ -7,7 +6,6 @@ import { Company } from '@/types/Company';
 import { FiShield } from 'react-icons/fi';
 
 export function RegistrationInfo() {
-    const t = useTranslations('about.registration');
     const [company, setCompany] = useState<Company | null>(null);
 
     useEffect(() => {
@@ -22,17 +20,17 @@ export function RegistrationInfo() {
           <div className="mx-auto max-w-3xl">
             <div className="rounded-lg bg-white p-8 shadow-md dark:bg-mining-dark/50">
               <h2 className="mb-6 text-2xl font-bold text-mining-dark dark:text-mining-light">
-                {t('title')}
+                Informations légales
               </h2>
 
               <div className="space-y-4">
                 <div className="flex flex-col justify-between border-b border-gray-200 pb-4 dark:border-gray-700 md:flex-row">
-                  <div className="font-semibold">{t('rccm')}</div>
+                  <div className="font-semibold">RCCM</div>
                   <div className="text-gray-600 dark:text-gray-300">{company.registration.rccm}</div>
                 </div>
 
                 <div className="flex flex-col justify-between border-b border-gray-200 pb-4 dark:border-gray-700 md:flex-row">
-                  <div className="font-semibold">{t('nif')}</div>
+                  <div className="font-semibold">NIF</div>
                   <div className="text-gray-600 dark:text-gray-300">{company.registration.nif}</div>
                 </div>
 

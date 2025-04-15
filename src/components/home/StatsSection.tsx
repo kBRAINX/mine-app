@@ -1,6 +1,5 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { FiUsers, FiActivity, FiMap, FiDollarSign } from 'react-icons/fi';
 import Container from '@/components/ui/Container';
 import Section from '@/components/ui/Section';
@@ -10,7 +9,6 @@ import projectsData from '@/data/projects.json';
 import locationsData from '@/data/locations.json';
 
 export default function StatsSection() {
-  const t = useTranslations('home.stats');
   const [stats, setStats] = useState([
     {
       id: 1,
@@ -71,7 +69,7 @@ export default function StatsSection() {
     <Section className="bg-white dark:bg-mining-dark">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="section-heading">{t('title')}</h2>
+          <h2 className="section-heading">Notre impact en chiffres</h2>
         </div>
 
         <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -83,7 +81,7 @@ export default function StatsSection() {
                 {stat.formatter ? stat.formatter(stat.value) : stat.value}
               </div>
               <div className="mt-2 text-gray-600 dark:text-gray-300">
-                {t(stat.label)}
+                {stat.label}
               </div>
             </div>
           ))}

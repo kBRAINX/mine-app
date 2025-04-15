@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import {JSX} from 'react';
 import { useState, useEffect } from 'react';
 import Container from '@/components/ui/Container';
@@ -9,7 +8,6 @@ import { FiUsers, FiCheckCircle, FiGlobe, FiAward, FiHeart } from 'react-icons/f
 import { Company } from '@/types/Company';
 
 export function CompanyValues() {
-    const t = useTranslations('about.values');
     const [company, setCompany] = useState<Company | null>(null);
 
     useEffect(() => {
@@ -30,7 +28,7 @@ export function CompanyValues() {
       <Section>
         <Container>
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="section-heading">{t('title')}</h2>
+            <h2 className="section-heading">Nos valeurs</h2>
           </div>
 
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

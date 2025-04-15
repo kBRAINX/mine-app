@@ -1,11 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
 import Container from '@/components/ui/Container';
 import { FiMail, FiPhone, FiMapPin, FiFacebook, FiLinkedin, FiTwitter } from 'react-icons/fi';
 
 export default function Footer() {
-  const t = useTranslations('common.footer');
   const currentYear = new Date().getFullYear();
 
   return (
@@ -134,19 +132,8 @@ export default function Footer() {
         <div className="mt-12 border-t border-gray-800 pt-8">
           <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
             <p className="text-sm text-gray-400">
-              © {currentYear} Group Toumbe Manning SARL. {t('rights')}
+              © {currentYear} Group Toumbe Manning SARL. Tous droits réservés
             </p>
-            <div className="flex space-x-6">
-              <Link href="/legal#privacy" className="text-sm text-gray-400 transition-colors hover:text-primary-400">
-                {t('privacy')}
-              </Link>
-              <Link href="/legal#terms" className="text-sm text-gray-400 transition-colors hover:text-primary-400">
-                {t('terms')}
-              </Link>
-              <Link href="/legal" className="text-sm text-gray-400 transition-colors hover:text-primary-400">
-                Mentions légales
-              </Link>
-            </div>
           </div>
         </div>
       </Container>

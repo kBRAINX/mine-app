@@ -1,6 +1,5 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Container from '@/components/ui/Container';
@@ -12,7 +11,6 @@ import { StatCard } from '../ui/StatCard';
 import { Card, CardContent } from '../ui/Card';
 
 export function CommunitySection() {
-    const t = useTranslations('impact.community');
     const [impact, setImpact] = useState<Impact | null>(null);
 
     useEffect(() => {
@@ -25,9 +23,9 @@ export function CommunitySection() {
       <Section className="bg-gray-50 dark:bg-gray-900">
         <Container>
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="section-heading">{t('title')}</h2>
+            <h2 className="section-heading">Projets communautaire</h2>
             <p className="section-subheading">
-              {t('description')}
+                Nous soutenons activement le développement des communautés locales à travers divers projets.
             </p>
           </div>
 
@@ -58,26 +56,26 @@ export function CommunitySection() {
           <div className="mt-16">
             <div className="rounded-lg bg-white p-8 shadow-md dark:bg-mining-dark/50">
               <h3 className="mb-6 text-2xl font-bold text-mining-dark dark:text-mining-light">
-                {t('training.title')}
+                Formation
               </h3>
 
               <div className="grid gap-8 md:grid-cols-3">
                 <StatCard
                   icon={<FiAward className="h-8 w-8 text-primary-600 dark:text-primary-400" />}
-                  title={t('training.programs')}
+                  title="Programmes"
                   value={impact.community.training.programs}
                 />
 
                 <StatCard
                   icon={<FiUsers className="h-8 w-8 text-secondary-600 dark:text-secondary-400" />}
-                  title={t('training.participants')}
+                  title="Participants"
                   value={impact.community.training.participants}
                   suffix="+"
                 />
 
                 <StatCard
                   icon={<FiTarget className="h-8 w-8 text-mining-gold" />}
-                  title={t('training.success')}
+                  title="Taux de réussite"
                   value={impact.community.training.success}
                   suffix="%"
                 />

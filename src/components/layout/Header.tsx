@@ -4,10 +4,8 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { useTranslations } from 'next-intl';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { useTheme } from '@/lib/theme';
-import LanguageSelector from './LanguageSelector';
 import ThemeToggle from './ThemeToggle';
 import Container from '@/components/ui/Container';
 
@@ -35,7 +33,6 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
   const { theme } = useTheme();
-  const t = useTranslations('common.nav');
 
   // Detect scroll for header styling
   useEffect(() => {
@@ -53,13 +50,12 @@ export default function Header() {
   }, [pathname]);
 
   const navItems = [
-    { href: '/', label: t('home') },
-    { href: '/about', label: t('about') },
-    { href: '/activities', label: t('activities') },
-    { href: '/projects', label: t('projects') },
-    { href: '/impact', label: t('impact') },
-    { href: '/locations', label: t('locations') },
-    { href: '/contact', label: t('contact') },
+    { href: '/', label: 'Accueil' },
+    { href: '/about', label: 'À propos' },
+    { href: '/projects', label: 'Projets' },
+    { href: '/impact', label: 'Impact' },
+    { href: '/locations', label: 'Localisation' },
+    { href: '/contact', label: 'Contact' },
   ];
 
   return (
@@ -95,10 +91,9 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Theme & Language Toggles */}
+          {/* Theme Toggle */}
           <div className="hidden items-center space-x-2 md:flex">
             <ThemeToggle />
-            <LanguageSelector />
           </div>
 
           {/* Mobile menu button */}
@@ -107,7 +102,7 @@ export default function Header() {
             className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white md:hidden"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">Ouvrir le menu principal</span>
             {isMobileMenuOpen ? (
               <FiX className="block h-6 w-6" aria-hidden="true" />
             ) : (
@@ -133,9 +128,8 @@ export default function Header() {
                   {item.label}
                 </Link>
               ))}
-              <div className="mt-4 flex items-center space-x-2 px-3">
+              <div className="mt-4 flex items-center px-3">
                 <ThemeToggle />
-                <LanguageSelector />
               </div>
             </div>
           </div>
